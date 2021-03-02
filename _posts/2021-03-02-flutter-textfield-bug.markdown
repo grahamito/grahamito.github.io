@@ -2,10 +2,11 @@
 layout: post
 title:  "Flutter problem typing in spaces in TextField on ios browser"
 date:   2021-03-02 16:11:00 +0100
-categories: flutter problem
+categories: flutter web 
 ---
 Was encountering a problem trying to spaces into a TextField on flutter web when using an ios mobile browser.
-
+The app  doesn´t respond to pressing the space key in the ios on screen keyboard when viewed on mobile browser
+App works fine when viewed on desktop browser
 
 {% highlight dart %}
 import 'package:flutter/material.dart';

@@ -6,11 +6,13 @@ categories: flutter web
 ---
 Was encountering a problem trying to spaces into a TextField on flutter web when using an ios mobile browser.
 The app  doesn´t respond to pressing the space key in the ios on screen keyboard when viewed on mobile browser
-App works fine when viewed on desktop browser
+App works fine when viewed on desktop browser. 
+
+Seems to be related to using SingleChildScrollView. Also, seems to depend on which web server is being used.  
 
 
 
-Check out the [flutter dartpad gist][flutter-gist].
+Check out the [flutter dartpad gist][flutter-gist]. However. This works, but when installed on our nginx web server the exact same code would not respond to space key presses.
 
 The example works when opened on desktop browser.
 
